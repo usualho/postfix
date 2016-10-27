@@ -1,6 +1,6 @@
 //postfix expression calculator
 var stack = [];
-var exp = "45 5 - 2 /";
+var exp = "45 5 - 2 /"; //expression here
 var tokens = exp.split(" ");
 
 function result(x, y, op) {
