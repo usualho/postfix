@@ -1,5 +1,5 @@
 //postfix expression calculator
-
+console.log("hey!");
 var readline = require("readline");
 var input = readline.createInterface({
     input: process.stdin
