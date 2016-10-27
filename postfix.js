@@ -27,9 +27,6 @@ input.on("line", (exp) => {
     console.log(stack[0]);
 });
 
-
-//make it happen
-//comments
 function result(x, y, op) {
     if(op == "+") {
         return x + y;
