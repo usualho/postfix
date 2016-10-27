@@ -1,7 +1,7 @@
 //postfix expression calculator
 var stack = [];
 var exp = "45 5 - 2 /"; //expression here
-var tokens = exp.split(" ");
+var tokens = exp.split(" "); //divide by spaces
 
 function result(x, y, op) {
     if(op == "+") {
